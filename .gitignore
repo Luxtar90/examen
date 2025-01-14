@@ -1,0 +1,9 @@
+# Archivos grandes que no queremos rastrear
+*.dll
+*.pyd
+*.npy
+*.mp4
+*.json
+
+# Opcional: Ignorar todo el entorno virtual
+venv/
