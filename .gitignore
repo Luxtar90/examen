@@ -5,6 +5,8 @@
 *.mp4
 *.json
 
-# Opcional: Ignorar todo el entorno virtual
+# Ignorar el entorno virtual
 venv/
+
 bfg-1.14.0.jar
+venv/Lib/site-packages/torch/lib/dnnl.lib/
