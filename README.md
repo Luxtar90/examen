@@ -25,3 +25,25 @@ Las siguientes librerías deben estar instaladas:
 Instala las dependencias ejecutando:
 ```bash
 pip install -r requirements.txt
+
+examen/
+├── data/
+│   ├── annotations/          # Archivos de anotación (JSON)
+│   ├── video_input/          # Videos de entrada para procesar
+│   ├── video_output/         # Videos procesados de salida
+│   ├── X_train.npy           # Dataset de entrenamiento
+│   ├── y_train.npy           # Etiquetas de entrenamiento
+│   ├── X_test.npy            # Dataset de prueba
+│   └── y_test.npy            # Etiquetas de prueba
+├── models/                   # Modelos entrenados guardados
+├── notebooks/                # Jupyter Notebooks para análisis
+├── src/
+│   ├── preprocessing.py      # Código para preprocesamiento de datos
+│   ├── train_model.py        # Código para entrenar el modelo
+│   ├── video_processor.py    # Código para procesar el video
+│   └── utils.py              # Funciones auxiliares
+├── venv/                     # Entorno virtual (excluido del repo)
+├── requirements.txt          # Dependencias del proyecto
+├── README.md                 # Instrucciones del proyecto
+└── informe.pdf               # Informe en PDF con resultados y análisis
+
