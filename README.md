@@ -45,5 +45,5 @@ examen/
 ├── venv/                     # Entorno virtual (excluido del repo)
 ├── requirements.txt          # Dependencias del proyecto
 ├── README.md                 # Instrucciones del proyecto
-└── informe.pdf               # Informe en PDF con resultados y análisis
+
 
