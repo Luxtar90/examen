@@ -1,0 +1,19 @@
+# Requerimientos principales
+numpy==1.23.5                # Operaciones matemáticas y arrays
+pandas==1.5.3                # Manejo de datos estructurados
+matplotlib==3.7.1            # Visualización de datos
+scikit-learn==1.2.2          # Métricas y modelos de Machine Learning
+
+# Visión por computadora
+opencv-python==4.7.0.68      # Procesamiento de imágenes y video
+
+# Aprendizaje profundo
+tensorflow==2.11.0           # Framework de Deep Learning (alternativa a PyTorch)
+# o si usas PyTorch:
+torch==1.13.1
+torchvision==0.14.1          # Extensiones para imágenes en PyTorch
+
+# Otras utilidades
+jupyter==1.0.0               # Jupyter Notebook para análisis ordenado
+seaborn==0.12.2              # Visualización avanzada de datos
+tqdm==4.64.1                 # Barra de progreso en bucles
